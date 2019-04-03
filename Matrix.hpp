@@ -15,7 +15,6 @@ class Matrix
     public:
         Matrix();
         Matrix(const sf::Vector3f&, const sf::Vector3f&, const sf::Vector3f&);
-        ~Matrix() {};
 
         void setRow(int, const sf::Vector3f&);
         void setElement(int, int, const float&);
